@@ -247,114 +247,113 @@
         </section>
         <!-- breadcrumb area end -->
         <!-- Gallery Section with Tabs -->
-        <section class="our_services_area section-padding-100-70 relative">
+        <!-- ============================= -->
+        <!-- Beautiful Gallery Section -->
+        <!-- ============================= -->
+        <section class="rs-gallery-area section-space primary-bg">
             <div class="container">
 
-                <!-- Section Heading -->
+                <!-- Section Title -->
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8">
 
+                    </div>
+                </div>
 
                 <!-- Tabs -->
-                <ul class="nav nav-tabs justify-content-center mb-40" id="galleryTabs" role="tablist">
+                <ul class="nav nav-tabs justify-content-center mb-40 rs-gallery-tabs" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" data-bs-toggle="tab" href="#photos" role="tab">
+                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#photos">
                             Photos
-                        </a>
+                        </button>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" href="#videos" role="tab">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#videos">
                             Videos
-                        </a>
+                        </button>
                     </li>
                 </ul>
 
-                <!-- Tabs Content -->
-                <div class="tab-content" id="galleryTabsContent">
+                <div class="tab-content">
 
-                    <!-- ================= PHOTOS TAB ================= -->
-                    <div class="tab-pane fade show active" id="photos" role="tabpanel">
+                    <!-- ================= PHOTOS ================= -->
+                    <div class="tab-pane fade show active" id="photos">
 
-                        <div class="row">
+                        <div class="row g-4">
 
-                            <div class="col-12 col-md-6 col-lg-4 mb-30">
-                                <a href="assets/images/gallery/img1.jpg" class="glightbox gallery-item"
-                                    data-gallery="photos" data-type="image">
-                                    <img src="assets/images/gallery/img1.jpg" class="img-fluid box-shadow" alt="">
-                                </a>
+                            <!-- Gallery Item -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="rs-gallery-item wow fadeInUp">
+                                    <a href="assets/images/gallery/img1.jpg" class="glightbox" data-gallery="photos">
+                                        <div class="rs-gallery-thumb">
+                                            <img src="assets/images/gallery/img1.jpg" alt="">
+                                            <div class="rs-gallery-overlay">
+                                                <i class="ri-eye-line"></i>
+                                                <h5>Training Session</h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
 
-                            <div class="col-12 col-md-6 col-lg-4 mb-30">
-                                <a href="assets/images/gallery/IndoGlobal.jpeg" class="glightbox gallery-item"
-                                    data-gallery="photos" data-type="image">
-                                    <img src="assets/images/gallery/IndoGlobal.jpeg" class="img-fluid box-shadow"
-                                        alt="">
-                                </a>
+                            <!-- Copy this block for more images -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="rs-gallery-item wow fadeInUp" data-wow-delay=".2s">
+                                    <a href="assets/images/gallery/w1.jpeg" class="glightbox" data-gallery="photos">
+                                        <div class="rs-gallery-thumb">
+                                            <img src="assets/images/gallery/w1.jpeg" alt="">
+                                            <div class="rs-gallery-overlay">
+                                                <i class="ri-eye-line"></i>
+                                                <h5>Workshop</h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
 
-                            <div class="col-12 col-md-6 col-lg-4 mb-30">
-                                <a href="assets/images/gallery/IndoGlobal1.jpeg" class="glightbox gallery-item"
-                                    data-gallery="photos" data-type="image">
-                                    <img src="assets/images/gallery/IndoGlobal1.jpeg" class="img-fluid box-shadow"
-                                        alt="">
-                                </a>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="rs-gallery-item wow fadeInUp" data-wow-delay=".3s">
+                                    <a href="assets/images/gallery/DST1.jpeg" class="glightbox" data-gallery="photos">
+                                        <div class="rs-gallery-thumb">
+                                            <img src="assets/images/gallery/DST1.jpeg" alt="">
+                                            <div class="rs-gallery-overlay">
+                                                <i class="ri-eye-line"></i>
+                                                <h5>Conference Talk</h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-
-                            <div class="col-12 col-md-6 col-lg-4 mb-30">
-                                <a href="assets/images/gallery/DST1.jpeg" class="glightbox gallery-item"
-                                    data-gallery="photos" data-type="image">
-                                    <img src="assets/images/gallery/DST1.jpeg" class="img-fluid box-shadow" alt="">
-                                </a>
-                            </div>
-
-                            <div class="col-12 col-md-6 col-lg-4 mb-30">
-                                <a href="assets/images/gallery/DST2.jpeg" class="glightbox gallery-item"
-                                    data-gallery="photos" data-type="image">
-                                    <img src="assets/images/gallery/DST2.jpeg" class="img-fluid box-shadow" alt="">
-                                </a>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4 mb-30">
-                                <a href="assets/images/gallery/online.jpeg" class="glightbox gallery-item"
-                                    data-gallery="photos" data-type="image">
-                                    <img src="assets/images/gallery/online.jpeg" class="img-fluid box-shadow" alt="">
-                                </a>
-                            </div>
-
 
                         </div>
-
                     </div>
 
 
+                    <!-- ================= VIDEOS ================= -->
+                    <div class="tab-pane fade" id="videos">
 
-                    <!-- ================= VIDEOS TAB ================= -->
-                    <div class="tab-pane fade" id="videos" role="tabpanel">
+                        <div class="row g-4">
 
-                        <div class="row">
-                            <h4>Coming Soon Videos</h4>
-                            <!-- Video 1 
-                            <div class="col-12 col-md-6 col-lg-4 mb-30">
-                                <a href="assets/video/Video1.mp4" class="glightbox video-thumb"
-                                    data-gallery="dsl-videos" data-type="video">
-
-                                    <div class="video-thumb box-shadow">
-                                        <img src="assets/video/Video1-thumb.png" class="img-fluid"
-                                            alt="Testimonial Video">
-
-                                        <div class="video-play-icon">
-                                            <i class="fa fa-play"></i>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="rs-gallery-item wow fadeInUp">
+                                    <a href="https://www.youtube.com/watch?v=F8NKVhkZZWI" class="glightbox"
+                                        data-type="video">
+                                        <div class="rs-gallery-thumb">
+                                            <img src="assets/images/gallery/video.jpg" alt="">
+                                            <div class=" rs-gallery-overlay">
+                                                <i class="ri-play-circle-line"></i>
+                                                <h5>AI Session</h5>
+                                            </div>
                                         </div>
-                                    </div>
-
-                                </a>
-                            </div> -->
-
+                                    </a>
+                                </div>
+                            </div>
 
                         </div>
 
                     </div>
 
                 </div>
-
             </div>
         </section>
     </main>
