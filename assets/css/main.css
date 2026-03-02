@@ -20373,4 +20373,55 @@ img {
   box-shadow: 0 8px 20px rgba(87, 119, 255, 0.4);
 }
 
+
+
+.testimonial-tabs .tab-btn {
+  border: none;
+  padding: 10px 25px;
+  margin: 5px;
+  background: #f1f1f1;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+.testimonial-tabs .tab-btn.active {
+  background: #5777ff;
+  color: #fff;
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-8px);
+}
+
+.testimonial-item {
+  transition: 0.4s ease;
+}
+
+.video-thumb {
+  position: relative;
+}
+
+.video-play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 10%;
+}
+
 /*# sourceMappingURL=main.css.map */
