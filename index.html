@@ -290,7 +290,7 @@
                         <div class="rs-banner-thumb-wrapper position-relative wow fadeInUp" data-wow-delay="1s"
                             data-wow-duration="1.5s">
                             <div class="rs-banner-thumb">
-                                <img src="assets/images/banner/himani_1.png" alt="image" width="50%">
+                                <img src="assets/images/banner/himani_2a.png" alt="image" width="50%">
                                 <div class="rs-banner-exp gsap-move up-100 start-70">
                                     <h3 class="rs-banner-exp-title"><span data-purecounter-duration="1"
                                             data-purecounter-end="11" class="purecounter">11</span>+</h3>
@@ -1529,6 +1529,16 @@
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
     </div>
+
+    <!-- Workshop Popup -->
+    <div id="workshopPopup" class="popup-overlay">
+        <div class="popup-content">
+            <span class="popup-close">&times;</span>
+            <img src="assets/images/workshop-popup.png" alt="Agentic AI Workshop" />
+        </div>
+    </div>
+
+
     <!-- Backtotop end -->
 
     <!-- JS here -->
@@ -1557,6 +1567,15 @@
     <script src="assets/js/vendor/dark-light.js"></script>
     <script src="assets/js/main.js"></script>
 
+    <script>
+        window.onload = function () {
+            document.getElementById("workshopPopup").style.display = "flex";
+        };
+
+        document.querySelector(".popup-close").onclick = function () {
+            document.getElementById("workshopPopup").style.display = "none";
+        };
+    </script>
 
 
 </body>
