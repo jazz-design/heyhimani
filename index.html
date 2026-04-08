@@ -1531,13 +1531,15 @@
     </div>
 
     <!-- Workshop Popup -->
-    <div id="workshopPopup" class="popup-overlay">
+    <div id="workshopPopup">
         <div class="popup-content">
-            <span class="popup-close">&times;</span>
-            <img src="assets/images/workshop-popup.png" alt="Agentic AI Workshop" />
+
+            <button class="close-btn" onclick="closeWorkshopPopup()">×</button>
+            <a href="https://forms.gle/kmppuU31r9iF8hrP6" target="_blank">
+                <img src="assets/images/Spatial_Computing.png" alt="Workshop" class="popup-img">
+            </a>
         </div>
     </div>
-
 
     <!-- Backtotop end -->
 
@@ -1568,15 +1570,19 @@
     <script src="assets/js/main.js"></script>
 
     <script>
-        window.onload = function () {
-            document.getElementById("workshopPopup").style.display = "flex";
-        };
+        function openWorkshopPopup() {
+            document.getElementById("workshopPopup").classList.add("active");
+        }
 
-        document.querySelector(".popup-close").onclick = function () {
-            document.getElementById("workshopPopup").style.display = "none";
+        function closeWorkshopPopup() {
+            document.getElementById("workshopPopup").classList.remove("active");
+        }
+
+        // Auto open after 1.5 sec
+        window.onload = function () {
+            setTimeout(openWorkshopPopup, 1500);
         };
     </script>
-
 
 </body>
 
