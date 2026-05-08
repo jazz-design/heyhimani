@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webinar Payment</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 12px;
+      width: 360px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 15px;
+    }
+
+    .details {
+      text-align: left;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .details p {
+      margin: 5px 0;
+    }
+
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+      color: #6a11cb;
+      margin: 15px 0;
+    }
+
+    .btn {
+      background: #6a11cb;
+      color: #fff;
+      padding: 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      display: block;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #4a0fa3;
+    }
+
+    .qr {
+      margin: 15px 0;
+    }
+
+    .qr img {
+      width: 180px;
+    }
+
+    .note {
+      font-size: 12px;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .register-link {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .register-link a {
+      color: #fff387;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>heyhimani.in</h1>
+    <h1>Empowering Educators with AI</h1>
+    <div class="subtitle">A NEW ERA OF SMART TEACHING</div>
+
+    <div class="details">
+      <p>📅 Date: 06 May 2026</p>
+      <p>⏰ Time: 4:30 PM – 6:00 PM</p>
+      <p>💻 Mode: Online</p>
+    </div>
+
+    <div class="price">₹199</div>
+
+
+    <!-- UPI Button -->
+    <a class="btn" href="upi://pay?pa=global.himani26@oksbi&pn=Himani&am=199&cu=INR">
+      Pay Now via UPI (Mobile Only)
+    </a>
+    <!-- QR Code (Replace with your actual QR image link) -->
+    <div class="qr">
+      <p>Or Scan QR Code for Payment </p>
+      <img src="assets/images/pay.jpeg" alt="QR Code">
+    </div>
+    <div class="note">
+      After payment, please complete your registration form below.
+    </div>
+
+    <!-- Registration Link -->
+    <div class="register-link">
+      <a class="btn" href="https://forms.gle/asK2JcEcrP3S21a87" target="_blank">
+        Complete Registration
+      </a>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
